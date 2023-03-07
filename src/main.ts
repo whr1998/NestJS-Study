@@ -34,7 +34,7 @@ async function bootstrap() {
   // 自带的跨域
   app.enableCors();
   // 中间件跨域
-  app.use(cors);
+  // app.use(cors);
   // 相应拦截器
   app.useGlobalInterceptors(new Response());
   // 错误拦截器
